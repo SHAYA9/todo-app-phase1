@@ -31,7 +31,14 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Spec-Driven Development**: Does the plan originate from a clear, approved spec?
+- [ ] **Deterministic Behavior**: Does the proposed solution guarantee the same output for the same input?
+- [ ] **Simplicity Over Abstraction**: Is the proposed architecture the simplest possible solution? Have all non-essential abstractions been avoided?
+- [ ] **Explicit State Management**: Is all state managed explicitly in memory without side effects?
+- [ ] **Zero Manual Human Coding**: Does the plan rely on AI for code generation without requiring manual edits?
+- [ ] **Python 3.x Standard Library Only**: Does the plan avoid all external dependencies?
+- [ ] **In-Memory Storage**: Does the plan confirm that no data is persisted to disk or a database?
+- [ ] **Single-File Architecture**: If the plan proposes more than one source file, is the justification documented and approved in the spec?
 
 ## Project Structure
 

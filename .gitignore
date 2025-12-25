@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-selfcheck.json
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.so
+*.egg
+.venv
+
+# Gemini
+.gemini-tmp/
